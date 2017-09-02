@@ -20,6 +20,7 @@ RUN apk add --update --no-cache \
   openssh \
   openssl \
   openssl-dev \
+  procps \
   wget \
   &&  rm -rf /var/lib/apt/lists/*
 
